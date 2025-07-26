@@ -68,14 +68,24 @@ body {
 }
 
 .page-header ul li a {
+    display: inline-block;
+    position: relative;
     text-decoration: none;
     color: var(--primary-text-color);
 }
 
-.page-header ul li a:hover {
-    text-decoration: underline;
-    transition: text-decoration 1s;
-    text-underline-offset: 0.5em;
+.page-header ul li a:hover::before {
+    content: '';
+    position: absolute;
+    bottom: -0.25em;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: var(--primary-text-color);
+}
+
+.page-header ul li a:hover::selection {
+    text-decoration-color: var(--primary-text-color);
 }
 
 .page-header .date {
