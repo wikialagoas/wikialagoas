@@ -1,7 +1,20 @@
+:root {
+    --primary-bg-color: #d7d6e4;
+}
+
+body {
+    margin: 0;
+}
+
 .page-header {
-    
-    background-color: blue;
-    height: 50px;
-    width: 100dvw;
+    position: relative;
+    background-color: var(--primary-bg-color);
+    height: 20em;
     width: 100vw;
+    width: 100dvw;
+}
+
+.page-header ul {
+    margin: 0;
+    padding: 0;
 }
