@@ -1,0 +1,73 @@
+---
+---
+
+:root {
+    --secondary-bg-color: #C4170C;
+    --secondary-text-color: #ffffff;
+    --header-font-family: "Playfair Display";
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("/assets/Playfair-Display-Font/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("{{ site.baseurl }}/assets/Playfair-Display-Font/PlayfairDisplay-Italic-VariableFont_wght.ttf");
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+}
+
+.page-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    position: relative;
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-text-color);
+    width: 100vw;
+    width: 100dvw;
+    font-family: var(--header-font-family);
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.page-header nav {
+    display: inline-block;
+}
+
+.page-header ul {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
+.page-header ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 2em;
+}
+
+.page-header ul li + li::before {
+  content: '—';
+  margin: 0.5em;
+}
+
+.page-header .date {
+    font-size: 1em;
+}
+
+.page-header .logo {
+    text-align: right;
+    font-size: 3em;
+}
