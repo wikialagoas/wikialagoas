@@ -23,7 +23,8 @@
         -->
 	</head>
 	<body>
-		{% include header.html %}
+		{% include header.html baseurl=site.baseurl %}
 		{{ content }}
+		{% include footer.html baseurl=site.baseurl github_url=site.github_url %}
 	</body>
 </html>
