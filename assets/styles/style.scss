@@ -2,7 +2,9 @@
 ---
 
 :root {
+    --primary-bg-color: #ffffff;
     --secondary-bg-color: #C4170C;
+    --primary-text-color: #000000;
     --secondary-text-color: #ffffff;
     --header-font-family: "Playfair Display";
 }
@@ -19,6 +21,7 @@
 }
 
 body {
+    background-color: var(--primary-bg-color);
     margin: 0;
 }
 
@@ -27,13 +30,16 @@ body {
     flex-direction: column;
     gap: 1em;
     position: relative;
-    background-color: var(--secondary-bg-color);
-    color: var(--secondary-text-color);
+    border-bottom: solid 0.25em;
+    border-color: var(--secondary-bg-color);
+    color: var(--primary-text-color);
     width: 100vw;
     width: 100dvw;
+    padding: 2em;
     font-family: var(--header-font-family);
-    padding: 1em;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-flex {
@@ -50,19 +56,17 @@ body {
     display: inline-flex;
     margin: 0;
     padding: 0;
+    gap: 20px;
+    
 }
-
 .page-header ul li {
     list-style-type: none;
     display: inline-block;
     font-size: 2em;
 }
-
-.page-header ul li + li::before {
-  content: '—';
-  margin: 0.5em;
+.page-header ul li:hover {
+    background-color: blue;
 }
-
 .page-header .date {
     font-size: 1em;
 }
@@ -70,4 +74,5 @@ body {
 .page-header .logo {
     text-align: right;
     font-size: 3em;
+    align-self: center;
 }
