@@ -3,7 +3,7 @@
 
 :root {
     --primary-bg-color: #ffffff;
-    --secondary-bg-color: #C4170C;
+    --secondary-bg-color: #180cc4;
     --primary-text-color: #000000;
     --secondary-text-color: #ffffff;
     --header-font-family: "Playfair Display";
@@ -33,13 +33,15 @@ body {
     border-bottom: solid 0.25em;
     border-color: var(--secondary-bg-color);
     color: var(--primary-text-color);
-    width: 100vw;
-    width: 100dvw;
+    width: 95vw;
+    width: 95dvw;
     padding: 2em;
     font-family: var(--header-font-family);
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-flex {
@@ -62,11 +64,20 @@ body {
 .page-header ul li {
     list-style-type: none;
     display: inline-block;
-    font-size: 2em;
+    font-size: 1.5em;
 }
-.page-header ul li:hover {
-    background-color: blue;
+
+.page-header ul li a {
+    text-decoration: none;
+    color: var(--primary-text-color);
 }
+
+.page-header ul li a:hover {
+    text-decoration: underline;
+    transition: text-decoration 1s;
+    text-underline-offset: 0.5em;
+}
+
 .page-header .date {
     font-size: 1em;
 }
