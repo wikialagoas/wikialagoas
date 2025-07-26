@@ -1,10 +1,13 @@
 <footer class="page-footer">
-  <nav>
-    <ul>
-      <li class="politica-de-privacidade"><a href="{{ include.baseurl }}">Política de privacidade</a></li>
-      <li class="termos-de-uso"><a href="{{ include.baseurl }}/termos-de-uso">Termos de uso</a></li>
-      <li class="contato"><a href="{{ include.baseurl }}/contato">Contato</a></li>
-      <li class="github-link"><a href="{{ include.github_url }}">GitHub</a></li>
-    </ul>
-  </nav>
+  <div class="footer-links">
+    <nav>
+      <ul class="nav-ul footer-ul">
+        <li class="politica-de-privacidade"><a href="{{ include.baseurl }}/politica-de-privacidade">Política de privacidade</a></li>
+        <li class="termos-de-uso"><a href="{{ include.baseurl }}/termos-de-uso">Termos de uso</a></li>
+        <li class="contato"><a href="{{ include.baseurl }}/contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="github-link">Este projeto possui código aberto. Visite nosso <a href="{{ include.github_url }}">GitHub</a>!</div>
+  </div>
+  <div>WikiAlagoas &copy; 2025. Todos os direitos reservados.</div>
 </footer>

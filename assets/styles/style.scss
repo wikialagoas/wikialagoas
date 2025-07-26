@@ -3,15 +3,17 @@
 
 :root {
     --primary-bg-color: #ffffff;
-    --secondary-bg-color: #180cc4;
+    --secondary-bg-color: #4037be;
     --primary-text-color: #000000;
     --secondary-text-color: #ffffff;
-    --header-font-family: "Playfair Display";
+    --minor-text-color: #aaaaa5;
+    --primary-font-family: "Fraunces";
+    --secondary-font-family: "Playfair Display";
 }
 
 @font-face {
     font-family: "Playfair Display";
-    src: url("/assets/Playfair-Display-Font/PlayfairDisplay-VariableFont_wght.ttf");
+    src: url("{{ site.baseurl }}/assets/Playfair-Display-Font/PlayfairDisplay-VariableFont_wght.ttf");
 }
 
 @font-face {
@@ -20,28 +22,80 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: "Fraunces";
+    src: url("{{ site.baseurl }}/assets/Fraunces-Font/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf");
+}
+
+@font-face {
+    font-family: "Fraunces";
+    src: url("{{ site.baseurl }}/assets/Fraunces-Font/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.ttf");
+    font-style: italic;
+}
+
 body {
     background-color: var(--primary-bg-color);
     margin: 0;
+    overflow-x: hidden;
+    font-family: var(--primary-font-family);
+}
+
+.page-header, .page-footer {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding: 2em;
+}
+
+.nav-ul {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    
+}
+
+.nav-ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav-ul li a, .footer-links .github-link a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+.nav-ul li a:hover::before, .footer-links .github-link a:hover::before {
+    content: '';
+    position: absolute;
+    bottom: -0.25em;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    --underline-color: var(--primary-text-color);
+    background-color: var(--underline-color);
+}
+
+.nav-ul li a:hover::selection, .footer-links .github-link a:hover::selection {
+    text-decoration-color: var(--primary-text-color);
 }
 
 .page-header {
-    display: flex;
     flex-direction: column;
     gap: 1em;
-    position: relative;
     border-bottom: solid 0.25em;
     border-color: var(--secondary-bg-color);
     color: var(--primary-text-color);
+    font-family: var(--secondary-font-family);
     width: 95vw;
     width: 95dvw;
-    padding: 2em;
-    font-family: var(--header-font-family);
-    box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 2em; // talvez adicionar ao conteúdo em vez do header
 }
 
 .header-flex {
@@ -54,38 +108,12 @@ body {
     display: inline-block;
 }
 
-.page-header ul {
-    display: inline-flex;
-    margin: 0;
-    padding: 0;
-    gap: 20px;
-    
-}
-.page-header ul li {
-    list-style-type: none;
-    display: inline-block;
+.header-ul li {
     font-size: 1.5em;
 }
 
-.page-header ul li a {
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
+.header-ul li a {
     color: var(--primary-text-color);
-}
-
-.page-header ul li a:hover::before {
-    content: '';
-    position: absolute;
-    bottom: -0.25em;
-    left: 0;
-    width: 100%;
-    height: 0.1em;
-    background-color: var(--primary-text-color);
-}
-
-.page-header ul li a:hover::selection {
-    text-decoration-color: var(--primary-text-color);
 }
 
 .page-header .date {
@@ -96,4 +124,37 @@ body {
     text-align: right;
     font-size: 3em;
     align-self: center;
+}
+
+.page-footer {
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-text-color);
+    justify-content: space-between;
+    width: 100vw;
+    width: 100dwv;
+    margin-top: 2em;  // talvez adicionar ao conteúdo em vez do footer
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.github-link {
+    color: var(--minor-text-color);
+}
+
+.footer-ul li a, .footer-links .github-link a {
+    color: var(--secondary-text-color);
+}
+
+.footer-ul li a:hover::before, .footer-links .github-link a:hover::before {
+    --underline-color: var(--secondary-text-color);
+}
+
+@media (max-width: 768px) {
+    .nav-ul {
+        flex-direction: column;
+    }
 }
