@@ -38,6 +38,8 @@ body {
     margin: 0;
     overflow-x: hidden;
     font-family: var(--primary-font-family);
+    min-width: 100vw;
+    min-width: 100dvw;
 }
 
 .page-header, .page-footer {
