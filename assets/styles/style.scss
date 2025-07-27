@@ -69,15 +69,22 @@ body {
     text-decoration: none;
 }
 
-.nav-ul li a:hover::before, .footer-links .github-link a:hover::before {
+.nav-ul li a::before, .footer-links .github-link a::before {
     content: '';
     position: absolute;
     bottom: -0.25em;
-    left: 0;
-    width: 100%;
+    left: 50%;
+    transition: width 0.1s ease-in-out;
+    transform: translateX(-50%);
+    width: 0;
     height: 0.1em;
     --underline-color: var(--primary-text-color);
     background-color: var(--underline-color);
+}
+
+.nav-ul li a:hover::before, .footer-links .github-link a:hover::before {
+    transition: width 0.15s ease-in-out;
+    width: 100%;
 }
 
 .nav-ul li a:hover::selection, .footer-links .github-link a:hover::selection {
