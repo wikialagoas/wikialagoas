@@ -40,6 +40,8 @@ body {
     font-family: var(--primary-font-family);
     min-width: 100vw;
     min-width: 100dvw;
+    min-height: 100vh;
+    min-height: 100dvh;
 }
 
 .page-header, .page-footer {
@@ -142,6 +144,8 @@ body {
     width: 100vw;
     width: 100dwv;
     margin-top: 2em;  // talvez adicionar ao conteúdo em vez do footer
+    position: sticky;
+    top: 100vw;
 }
 
 .footer-links {
