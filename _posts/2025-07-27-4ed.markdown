@@ -1,0 +1,42 @@
+---
+layout: base
+title: 4.ª edição
+date: 2025-07-27
+---
+
+<div style="display: flex; gap: 1em;">
+    <div>
+        <h1>Alfabeto fonético: o futuro da escrita?</h1> <!-- adicionar include de fontes tipo: include sources.html s1="fonte 1" s2="fonte 2" s3="fonte 3" s4="fonte4" -->
+        <p>O alfabeto fonético é um alfabeto cuja função é representar todos os fonemas, ou seja, partículas individuais de sons da linguagem. Tal sistema é particularmente útil aos linguistas: por exemplo, Ferdinand de Saussure, considerado o pai da Linguística moderna, afirmava que ele é a forma escrita mais próxima da verdadeira língua, a qual, para o semioticista, é a fala. Contudo, apesar de sua utilidade linguística, levanta-se uma questão: por que o alfabeto regular não é substituído por um sistema fonético?</p>
+        <p>Voltemos a Saussure. Para ele, o sistema fonético não serve aos leigos na Linguística devido a vários fatores. O primeiro é que seria muito difícil, senão impossível, fazer várias nações concordarem em usar um sistema uniforme. Além disso, haveria o risco de se acumularem sinais diacríticos. O alfabeto fonético, dessa maneira, não se adapta à língua a qual se propõe a representar, dificultando a leitura.</p>
+    </div>
+    <div>
+        <h1>Alfabeto fonético: o futuro da escrita?</h1> <!-- adicionar include de fontes tipo: include sources.html s1="fonte 1" s2="fonte 2" s3="fonte 3" s4="fonte4" -->
+        <p>O alfabeto fonético é um alfabeto cuja função é representar todos os fonemas, ou seja, partículas individuais de sons da linguagem. Tal sistema é particularmente útil aos linguistas: por exemplo, Ferdinand de Saussure, considerado o pai da Linguística moderna, afirmava que ele é a forma escrita mais próxima da verdadeira língua, a qual, para o semioticista, é a fala. Contudo, apesar de sua utilidade linguística, levanta-se uma questão: por que o alfabeto regular não é substituído por um sistema fonético?</p>
+        <p>Voltemos a Saussure. Para ele, o sistema fonético não serve aos leigos na Linguística devido a vários fatores. O primeiro é que seria muito difícil, senão impossível, fazer várias nações concordarem em usar um sistema uniforme. Além disso, haveria o risco de se acumularem sinais diacríticos. O alfabeto fonético, dessa maneira, não se adapta à língua a qual se propõe a representar, dificultando a leitura.</p>
+    </div>
+</div>
+<hr>
+<div>
+    <h1>Alfabeto fonético: o futuro da escrita?</h1> <!-- adicionar include de fontes tipo: include sources.html s1="fonte 1" s2="fonte 2" s3="fonte 3" s4="fonte4" -->
+    <p>O alfabeto fonético é um alfabeto cuja função é representar todos os fonemas, ou seja, partículas individuais de sons da linguagem. Tal sistema é particularmente útil aos linguistas: por exemplo, Ferdinand de Saussure, considerado o pai da Linguística moderna, afirmava que ele é a forma escrita mais próxima da verdadeira língua, a qual, para o semioticista, é a fala. Contudo, apesar de sua utilidade linguística, levanta-se uma questão: por que o alfabeto regular não é substituído por um sistema fonético?</p>
+    <p>Voltemos a Saussure. Para ele, o sistema fonético não serve aos leigos na Linguística devido a vários fatores. O primeiro é que seria muito difícil, senão impossível, fazer várias nações concordarem em usar um sistema uniforme. Além disso, haveria o risco de se acumularem sinais diacríticos. O alfabeto fonético, dessa maneira, não se adapta à língua a qual se propõe a representar, dificultando a leitura.</p>
+</div>
+<hr>
+<div style="display: flex; gap: 1em;">
+    <div>
+        <h1>Alfabeto fonético: o futuro da escrita?</h1> <!-- adicionar include de fontes tipo: include sources.html s1="fonte 1" s2="fonte 2" s3="fonte 3" s4="fonte4" -->
+        <p>O alfabeto fonético é um alfabeto cuja função é representar todos os fonemas, ou seja, partículas individuais de sons da linguagem. Tal sistema é particularmente útil aos linguistas: por exemplo, Ferdinand de Saussure, considerado o pai da Linguística moderna, afirmava que ele é a forma escrita mais próxima da verdadeira língua, a qual, para o semioticista, é a fala. Contudo, apesar de sua utilidade linguística, levanta-se uma questão: por que o alfabeto regular não é substituído por um sistema fonético?</p>
+        <p>Voltemos a Saussure. Para ele, o sistema fonético não serve aos leigos na Linguística devido a vários fatores. O primeiro é que seria muito difícil, senão impossível, fazer várias nações concordarem em usar um sistema uniforme. Além disso, haveria o risco de se acumularem sinais diacríticos. O alfabeto fonético, dessa maneira, não se adapta à língua a qual se propõe a representar, dificultando a leitura.</p>
+    </div>
+    <div>
+        <h1>Alfabeto fonético: o futuro da escrita?</h1> <!-- adicionar include de fontes tipo: include sources.html s1="fonte 1" s2="fonte 2" s3="fonte 3" s4="fonte4" -->
+        <p>O alfabeto fonético é um alfabeto cuja função é representar todos os fonemas, ou seja, partículas individuais de sons da linguagem. Tal sistema é particularmente útil aos linguistas: por exemplo, Ferdinand de Saussure, considerado o pai da Linguística moderna, afirmava que ele é a forma escrita mais próxima da verdadeira língua, a qual, para o semioticista, é a fala. Contudo, apesar de sua utilidade linguística, levanta-se uma questão: por que o alfabeto regular não é substituído por um sistema fonético?</p>
+        <p>Voltemos a Saussure. Para ele, o sistema fonético não serve aos leigos na Linguística devido a vários fatores. O primeiro é que seria muito difícil, senão impossível, fazer várias nações concordarem em usar um sistema uniforme. Além disso, haveria o risco de se acumularem sinais diacríticos. O alfabeto fonético, dessa maneira, não se adapta à língua a qual se propõe a representar, dificultando a leitura.</p>
+    </div>
+    <div>
+        <h1>Alfabeto fonético: o futuro da escrita?</h1> <!-- adicionar include de fontes tipo: include sources.html s1="fonte 1" s2="fonte 2" s3="fonte 3" s4="fonte4" -->
+        <p>O alfabeto fonético é um alfabeto cuja função é representar todos os fonemas, ou seja, partículas individuais de sons da linguagem. Tal sistema é particularmente útil aos linguistas: por exemplo, Ferdinand de Saussure, considerado o pai da Linguística moderna, afirmava que ele é a forma escrita mais próxima da verdadeira língua, a qual, para o semioticista, é a fala. Contudo, apesar de sua utilidade linguística, levanta-se uma questão: por que o alfabeto regular não é substituído por um sistema fonético?</p>
+        <p>Voltemos a Saussure. Para ele, o sistema fonético não serve aos leigos na Linguística devido a vários fatores. O primeiro é que seria muito difícil, senão impossível, fazer várias nações concordarem em usar um sistema uniforme. Além disso, haveria o risco de se acumularem sinais diacríticos. O alfabeto fonético, dessa maneira, não se adapta à língua a qual se propõe a representar, dificultando a leitura.</p>
+    </div>
+</div>

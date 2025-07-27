@@ -5,3 +5,10 @@ title: "Edições anteriores"
 
 <h1>Edições anteriores</h1>
 <p>Esta página apresenta as edições anteriores do nosso jornal.</p>
+<ul>
+  {% for edicao in site.posts %}
+    <li>
+      <a href="{{ edicao.url }}">{{ edicao.title }} - {{ edicao.date | date: "%d/%m/%Y" }}</a>
+    </li>
+  {% endfor %}
+</ul>
