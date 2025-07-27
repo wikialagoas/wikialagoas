@@ -1,0 +1,29 @@
+{% assign date = include.date | split: '-' %}
+{% assign day = date[2] | plus: 0 %}
+
+{{ day }} de {% case date[1] %}
+    {% when "2", "02" %}
+        fevereiro
+    {% when "3", "03" %}
+        março
+    {% when "4", "04" %}
+        abril
+    {% when "5", "05" %}
+        maio
+    {% when "6", "06" %}
+        junho
+    {% when "7", "07" %}
+        julho
+    {% when "8", "08" %}
+        agosto
+    {% when "9", "09" %}
+        setembro
+    {% when "10" %}
+        outubro
+    {% when "11" %}
+        novembro
+    {% when "12" %}
+        dezembro
+    {% else %}
+        janeiro
+{% endcase %} de {{ date[0] }}
