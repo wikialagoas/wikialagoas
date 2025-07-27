@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 	<head>
 		<link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/favicon.ico">
-		<title>{{ page.title }}</title>
+		<title>{{site.title}} — {{ page.title }}</title>
 		
 		<meta content="{{ page.title }}" property="og:title" />
 		<meta content="{{ site.description }}" property="og:description" />
@@ -24,7 +24,9 @@
 	</head>
 	<body>
 		{% include header.html baseurl=site.baseurl edition="4" date="2025-07-27" %}
-		{{ content }}
+		<div class="content-container">
+			{{ content }}
+		</div>
 		{% include footer.html baseurl=site.baseurl github_url=site.github_url %}
 	</body>
 </html>
