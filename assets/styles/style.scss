@@ -184,3 +184,27 @@ body {
         flex-direction: column;
     }
 }
+.creditos {
+    background-color: rgb(209, 213, 219);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: auto;
+    gap: 0.75rem /* 12px */;
+    height: 100vh;
+}
+.titulo-creditos {
+    font-size: 1.5rem /* 24px */;
+    line-height: 2rem /* 32px */;
+    font-weight: 600;
+}
+.grupo-colaboradores {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.75rem /* 12px */;
+}
+.titulo-grupo {
+    font-size: 1.125rem /* 18px */;
+    line-height: 1.75rem /* 28px */;
+    font-weight: 600;
+}
