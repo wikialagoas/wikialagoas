@@ -156,7 +156,7 @@ body {
     color: var(--secondary-text-color);
 }
 
-.footer-ul li a:hover::before, .footer-links .github-link a:hover::before {
+.footer-ul li a::before, .footer-links .github-link a::before {
     --underline-color: var(--secondary-text-color);
 }
 
