@@ -143,7 +143,6 @@ body {
     justify-content: space-between;
     width: 100vw;
     width: 100dwv;
-    margin-top: 2em;  // talvez adicionar ao conteúdo em vez do footer
     position: sticky;
     top: 100vw;
 }
@@ -171,6 +170,8 @@ body {
     width: 90dvw;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .content-container h1 { // talvez usar uma classe
@@ -184,7 +185,8 @@ body {
         flex-direction: column;
     }
 }
-.creditos {
+
+.credits {
     background-color: rgb(209, 213, 219);
     display: flex;
     flex-flow: column nowrap;
@@ -193,18 +195,26 @@ body {
     gap: 0.75rem /* 12px */;
     height: 100vh;
 }
-.titulo-creditos {
+
+.credits-title {
     font-size: 1.5rem /* 24px */;
     line-height: 2rem /* 32px */;
     font-weight: 600;
 }
-.grupo-colaboradores {
+.group-collaborators {
     display: flex;
     flex-flow: column nowrap;
+    align-items: center;
     gap: 0.75rem /* 12px */;
 }
-.titulo-grupo {
+.group-title {
+    text-align: center;
     font-size: 1.125rem /* 18px */;
     line-height: 1.75rem /* 28px */;
     font-weight: 600;
+}
+.group-collaborators ul {
+    list-style-type: none;
+    margin-block: 0;
+    padding-inline: 0;
 }
