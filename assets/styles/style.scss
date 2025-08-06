@@ -52,7 +52,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-    padding: 2em;
+    padding: 2rem;
 }
 
 .nav-ul {
@@ -77,12 +77,12 @@ body {
 .nav-ul li a::before, .footer-links .github-link a::before {
     content: '';
     position: absolute;
-    bottom: -0.25em;
+    bottom: -0.25rem;
     left: 50%;
     transition: width 0.1s ease-in-out;
     transform: translateX(-50%);
     width: 0;
-    height: 0.1em;
+    height: 0.1rem;
     --underline-color: var(--primary-text-color);
     background-color: var(--underline-color);
 }
@@ -98,8 +98,8 @@ body {
 
 .page-header {
     flex-direction: column;
-    gap: 1em;
-    border-bottom: solid 0.25em;
+    gap: 1rem;
+    border-bottom: solid 0.25rem;
     border-color: var(--secondary-bg-color);
     color: var(--primary-text-color);
     font-family: var(--secondary-font-family);
@@ -107,7 +107,7 @@ body {
     width: 95dvw;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2em; // talvez adicionar ao conteúdo em vez do header
+    margin-bottom: 2rem; // talvez adicionar ao conteúdo em vez do header
 }
 
 .header-flex {
@@ -151,7 +151,7 @@ body {
 .footer-links {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 1rem;
 }
 
 .github-link {
@@ -183,7 +183,7 @@ body {
 
 .content-grid {
     display: grid;
-    gap: 1em;
+    gap: 1rem;
 }
 
 .content-grid {
@@ -208,25 +208,25 @@ body {
     flex-flow: column nowrap;
     align-items: center;
     margin: auto;
-    gap: 0.75rem /* 12px */;
+    gap: 0.75rem;
     height: 100vh;
 }
 
 .credits-title {
-    font-size: 1.5rem /* 24px */;
-    line-height: 2rem /* 32px */;
+    font-size: 1.5em;
+    line-height: 2rem;
     font-weight: 600;
 }
 .group-collaborators {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    gap: 0.75rem /* 12px */;
+    gap: 0.75rem;
 }
 .group-title {
     text-align: center;
-    font-size: 1.125rem /* 18px */;
-    line-height: 1.75rem /* 28px */;
+    font-size: 1.125em;
+    line-height: 1.75rem;
     font-weight: 600;
 }
 .group-collaborators ul {
