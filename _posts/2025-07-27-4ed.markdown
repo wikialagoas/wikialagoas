@@ -4,7 +4,7 @@ title: 4.ª edição
 date: 2025-07-27
 ---
 
-<div class="content-grid columns">
+<div class="content-grid">
     <div>
         <h1>Alfabeto fonético: o futuro da escrita? {% include icons-temp.html %}</h1> <!-- adicionar include de fontes tipo: include sources.html s1="fonte 1" s2="fonte 2" s3="fonte 3" s4="fonte4" -->
         <img src="{{ site.baseurl }}/assets/Open_book_(26421751605).jpg" width="50%">
@@ -22,7 +22,7 @@ date: 2025-07-27
     <p>Muito se fala em linguagem de programação num mundo cada vez mais tecnológico. Estamos no meio técnico-científico-informacional da globalização, em que lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod turpis magna, id vehicula lorem vestibulum eu. Nam ultrices, urna nec fringilla faucibus, lacus ipsum convallis neque, eu eleifend libero arcu ac nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer dictum et nunc nec hendrerit. Sed velit ligula, aliquam in pellentesque at, mollis vel tortor. Donec lacinia cursus sem ut blandit. Integer semper suscipit nisi, sit amet fermentum velit interdum sed. Cras leo lorem, vestibulum in nisi quis, ultricies luctus magna.</p>
 </div>
 <hr>
-<div class="content-grid columns">
+<div class="content-grid">
     <div>
         <h1>Opinião: o Enem “nivela por baixo”? {% include icons-temp.html %}</h1> <!-- adicionar include de fontes tipo: include sources.html s1="fonte 1" s2="fonte 2" s3="fonte 3" s4="fonte4" -->
         <p>O Exame Nacional do Ensino Médio é, sem dúvidas, uma das provas mais importantes do país. Com 3,15 milhões de participantes no Enem 2024, não é surpreendente que o exame tenha passado por diversas iterações até alcançar uma versão lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod turpis magna, id vehicula lorem vestibulum eu. Enganei você de novo: você pensou que teria um artigo muito detalhado, mas é só exemplo. Nam ultrices, urna nec fringilla faucibus, lacus ipsum convallis neque, eu eleifend libero arcu ac nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer dictum et nunc nec hendrerit. Sed velit ligula, aliquam in pellentesque at, mollis vel tortor. Donec lacinia cursus sem ut blandit. Integer semper suscipit nisi, sit amet fermentum velit interdum sed. Cras leo lorem, vestibulum in nisi quis, ultricies luctus magna.</p>
