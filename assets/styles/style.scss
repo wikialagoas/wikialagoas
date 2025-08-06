@@ -190,6 +190,14 @@ body {
     grid-auto-columns: 1fr;
 }
 
+.icon-list {
+    display: inline-flex;
+    gap: 0.5rem;
+    margin-left: 0.5rem;
+    vertical-align: 0.0625em;
+    align-items: center;
+}
+
 @media (max-width: 768px) {
     .footer-ul {
         flex-direction: column;
